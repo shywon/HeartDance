@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>image/expandC_2x.png</file>
+        <file>image/expandN_2x.png</file>
+        <file>image/shrinkC_2x.png</file>
+        <file>image/shrinkN_2x.png</file>
+        <file>image/updateC_2x.png</file>
+        <file>image/updateN_2x.png</file>
+    </qresource>
+</RCC>
