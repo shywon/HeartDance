@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<FirstNode label="时间" collapse="1" index="0">
+		<SecondNode label="今天" index="1"></SecondNode>
+		<SecondNode label="一周内" index="2"></SecondNode>
+		<SecondNode label="三个月" index="3"></SecondNode>
+    <SecondNode label="六个月" index="3"></SecondNode>
+    <SecondNode label="全部" index="5"></SecondNode>
+	</FirstNode>
+	<FirstNode label="自定义控件"  index="6">
+    <SecondNode label="悬浮球" index="7"></SecondNode>
+    <SecondNode label="待添加控件" index="8"></SecondNode>
+  </FirstNode>
+</root>

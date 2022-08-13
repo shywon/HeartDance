@@ -86,7 +86,6 @@ void ShareScreenToolWidget::initUi()
 	m_line->setFixedSize(1, 16);
 	m_line->setObjectName(ScreenShareTool_SpaceLine);
 
-	//
     m_shareTimeWidget = new ScreenShareTimeWidget(m_baseWidget);
 	m_shareTimeWidget->setObjectName(ScreenShareTool_ShareTimeWidget);
 

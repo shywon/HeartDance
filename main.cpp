@@ -1,12 +1,12 @@
-#include "sharescreenobj.h"
+#include "heartdanceobj.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    ShareScreenObj obj;
-    obj.showTool();
+    HeartDanceObj obj;
+    obj.showMainWidget();
 
     return a.exec();
 }

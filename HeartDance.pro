@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 include($$PWD/common/common.pri)
@@ -16,18 +16,29 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 INCLUDEPATH += $$PWD/common \
                $$PWD/floatball\
+               $$PWD/navigatebar\
 
 SOURCES += \
     floatball/screensharetimewidget.cpp \
     floatball/sharescreenobj.cpp \
     floatball/sharescreentoolwidget.cpp \
+    heartdanceobj.cpp \
+    heartdancewidget.cpp \
     main.cpp \
+    navigatebar/NavigateListDelegate.cpp \
+    navigatebar/NavigateListModel.cpp \
+    navigatebar/NavigateListView.cpp
 
 
-HEADERS += \ \
+HEADERS += \
     floatball/screensharetimewidget.h \
     floatball/sharescreenobj.h \
-    floatball/sharescreentoolwidget.h
+    floatball/sharescreentoolwidget.h \
+    heartdanceobj.h \
+    heartdancewidget.h \
+    navigatebar/NavigateListDelegate.h \
+    navigatebar/NavigateListModel.h \
+    navigatebar/NavigateListView.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -36,3 +47,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     rc.qrc
+
+FORMS += \
+    HeartDance.ui

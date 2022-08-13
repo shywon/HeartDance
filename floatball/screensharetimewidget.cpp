@@ -10,7 +10,7 @@ ScreenShareTimeWidget::ScreenShareTimeWidget(QWidget *parent)
     , m_recordString("00:00:00")
     , m_shareState(ScreenShareState_finish)
 {
-	m_recordtimer->setInterval(500);
+    m_recordtimer->setInterval(100);
 	m_timeRecoder.setHMS(0, 0, 0, 0);
 
 	initUi();

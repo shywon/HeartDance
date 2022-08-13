@@ -7,4 +7,9 @@
         <file>image/updateC_2x.png</file>
         <file>image/updateN_2x.png</file>
     </qresource>
+    <qresource prefix="/">
+        <file>image/navigatebar/expand_normal.png</file>
+        <file>image/navigatebar/navigation.xml</file>
+        <file>image/navigatebar/unexpand_normal.png</file>
+    </qresource>
 </RCC>
